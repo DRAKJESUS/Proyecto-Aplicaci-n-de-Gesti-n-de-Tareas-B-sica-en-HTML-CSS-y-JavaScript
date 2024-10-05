@@ -5,7 +5,7 @@ function addTask() {
         // Mostrar alerta de error si el campo está vacío
         Swal.fire({
             icon: 'error',
-            title: 'Oops...',
+            title: 'ops...',
             text: 'Por favor, escribe una tarea antes de agregarla.'
         });
         return;
