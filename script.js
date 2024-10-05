@@ -6,7 +6,7 @@ function addTask() {
         Swal.fire({
             icon: 'error',
             title: 'ops...',
-            text: 'Por favor, escribe una tarea antes de agregarla.'
+            text: 'Por favor, escribe una tarea mas antes de agregarla.'
         });
         return;
     }
