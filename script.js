@@ -1,6 +1,6 @@
 function addTask() {
     const taskInput = document.getElementById('taskInput').value;
-  const taskInput = document.getElementById('taskInput').value;
+
     if (taskInput === '') {
         // Mostrar alerta de error si el campo está vacío
         Swal.fire({
